@@ -1,0 +1,3 @@
+Random number generator in linux: 
+
+Look at fixGenerator.sh grep "random" to find the code
