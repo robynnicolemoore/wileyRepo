@@ -1,0 +1,22 @@
+#!/bin/sh
+
+u="$USER"
+echo "User name $u"
+date=`(date +%m.%d.%Y)`
+echo "Date $date"
+time=`(date +%T)`
+echo "Time $time"
+directory=`pwd`
+echo "Current directory: $directory"
+filecount=`ls | wc -l`
+echo "Number of files: $filecount"
+biggestfile=`du $directory | sort -n -r | head -1`
+echo "Biggest file: $biggestfile"
+
+~                                                                               
+~          User name ec2-user
+Date 05.25.2022
+Time 18:05:15
+Current directory: /home/ec2-user
+Number of files: 56
+Biggest file: 1796	/home/ec2-user
