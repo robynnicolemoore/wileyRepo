@@ -9,6 +9,26 @@ echo "Enter your lottery numbers"
 read input
 echo $input > /home/ec2-user/wileyRepo/lotteryguesser.txt+$DATE
 
+declare -a array1
 
-diff /home/ec2-user/wileyRepo/lotteryguesser.txt+$DATE  /home/ec2-user/wileyRepo/lottery.txt+$DATE
-echo "$diff"
+while read -r line
+do
+	array1+=("$(echo "$line")")
+done</home/ec2-user/wileyRepo/lottery.txt+$DATE
+
+for i in "${array1[@]}"
+do
+	echo "$i"
+done
+
+declare -a array2
+
+while read -r line
+do arrya2+=("$(echo "$line")")
+done</home/ec2-user/wileyRepo/lotteryguesser.txt+$DATE
+
+for i in "${array2[@]}"
+do
+	echo "$i"
+done
+
