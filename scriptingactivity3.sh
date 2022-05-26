@@ -32,3 +32,5 @@ do
 	echo "$i"
 done
 
+comm "$array1" "$array2"
+echo "$comm"
