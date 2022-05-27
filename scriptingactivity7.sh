@@ -1,14 +1,12 @@
 #!/bin/sh
 
 
-for i in {1..10}
-do
-while IFS="#" read -r question choices answer <quizquestions.txt
+while IFS="#" read -r question choices answer
 do
 	echo $question
 	echo $choices
 	echo "Please enter your answer (1=true, 2=false)"
-	read input
+	read input </dev/tty
 	if (( $input==$answer ))
 	then 
 		echo "Muy bien"
@@ -16,7 +14,7 @@ do
 	else 
 		echo "Try again"
 	fi
-done <quizqquestions.txt
+done <quizquestions.txt
 
 
 

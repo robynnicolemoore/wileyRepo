@@ -1,0 +1,10 @@
+The Spanish word for "cat" is "el gato"?# 1=True 2=False # 1
+The Spanish word for "house" is "el árbol"?# 1=True 2=False # 2
+The Spanish word for "mountain" is "la montaña"?# 1=True 2=False # 1
+The Spanish word for "friend" is "el amigo"? # 1=True 2=False # 1
+The Spanish word for "to eat" is "saber"? # 1=True 2=False # 2
+The Spanish word for "to play" is "jugar"? # 1=True 2=False # 1
+The Spanish word for "pizza" is "la torta"? # 1=True 2=False # 2
+The Spanish word for "love" is "el odio"? # 1=True 2=False # 2
+The Spanish word for "travel" is "viajar"? # 1=True 2=False # 1
+The Spanish word for "ball" is "el valle"? # 1=True 2=False # 2
