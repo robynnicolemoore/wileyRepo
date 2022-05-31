@@ -56,3 +56,14 @@ echo $sum
 length=$(cat activity8.txt | wc -w)
 average=$(($sum/$length))
 echo $average
+
+#Find min and max
+max=${array[0]}
+min=0
+for i in ${arr[@]}
+do 
+	if (( ${array[$i]}>$max ))
+	then max=${array[$i]}
+	fi
+done
+echo $max
