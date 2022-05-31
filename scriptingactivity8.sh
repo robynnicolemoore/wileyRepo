@@ -53,5 +53,6 @@ done
 echo $sum
 
 #Find average
-length="${#arr[@]}"
-echo $length
+length=$(cat activity8.txt | wc -w)
+average=$(($sum/$length))
+echo $average
